@@ -1,0 +1,99 @@
+/*  Guess game - style css   */
+
+body, html { 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; }
+
+body { 
+    background-image: url('../images/bgr.png');
+    font-family: 'Arimo', sans-serif;
+}
+
+button { 
+    min-width: 150px;
+    min-height: 40px;
+    color: white;
+
+}
+button#button {
+  background-color: #3D73FF;
+}
+button#again {
+  background-color: red;
+}
+button:hover { 
+    background-color: #325ED1;
+}
+button:active {
+    background-color: #89AAFF;
+}
+
+.text-center {    
+    margin: auto;    
+    text-align: center;    
+}
+
+/*  Vertical align  */
+.vbox {
+    width: 100%;
+  display: table;
+  #position: relative;
+  overflow: hidden;
+}
+.vmiddle {
+    #position: absolute; #top: 50%; display: table-cell; vertical-align: middle;
+}
+.vinner {
+    #position: relative; #top: -50%
+}
+
+.disabled { background-color: #417F2C;}
+
+/* Basic structure */
+#board {
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 0px;
+    background-color: rgba(255, 254, 202, 0.6);    
+    border-bottom: 2px solid #325ED1;
+    border-top: 2px solid #FFF;    
+    color: #222;
+}
+
+#baner {
+  min-height: 50px;
+  background: -webkit-linear-gradient(#89AAFF, #325ED1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#89AAFF, #325ED1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#89AAFF, #325ED1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#89AAFF, #325ED1); /* Standard syntax */
+  color: white;
+  text-shadow: 2px 2px 0 #555;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#input {
+    border-radius: 5px;
+    min-height: 30px;
+    text-align: center;
+    margin: 0px;
+}
+
+#output { 
+    margin: 10px;
+}
+#input { 
+    margin: 10px;
+}
+#input:focus { 
+    outline: none; 
+    margin: 10px;
+}
+#state { 
+    margin: 10px;
+}
+#history { 
+    margin: 10px;
+}

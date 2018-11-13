@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta lang="en">
+    <meta charset="utf-8">
+    <title>Guess game</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+    
+</head>
+<body>
+    <div class="text-center" id="board">
+        <div class="vbox" id="baner">
+            <div class="vmiddle">
+                <div class="vinner">
+                    Guess game
+                </div>
+            </div>            
+        </div>
+        <div>
+            <div id="output">Guess the number 1 - 100.</div>
+            <input id="input" type="text" placeholder="Enter the number..." autofocus><br />
+            <button id="button">Guess</button>
+            <button id="again">Again?</button>
+            <div id="state"></div>
+            Last guess:
+            <div id="history"></div>    
+        </div>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

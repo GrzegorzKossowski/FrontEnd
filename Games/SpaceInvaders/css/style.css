@@ -1,0 +1,26 @@
+body, html { margin: 0; padding: 0; background-color: #333; }
+
+.text-center {    
+    margin: auto;    
+    text-align: center;    
+}
+
+.valign {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#content {
+    margin-top: 20px;
+    
+    padding: 0;
+}
+
+#canvas {
+    border: 2px solid white;    
+}
+
+
