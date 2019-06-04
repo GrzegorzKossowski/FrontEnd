@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Buttons */
+.btn-rounded {
+  border-radius: 30px;
+}
+
+/* Curved border */
+.curved-border {
+  /* border: 3px solid; */
+  /* box-shadow: inset 0px -1px 0px black; /* just to make the bottom border look thicker */
+  margin-bottom: 100px;
+  border-radius: 0% 0% 40% 40%/0% 0% 10% 10%;
+}
+
+
+/* COLORS */
+.text-blue { color: #039; }
+.text-blue-light { color: #2F63CC; }
+.text-gold { color: #ffd700; }
+.text-green-dark { color: #89993D; }
+.text-green-dark { color: #ABCC14; }
+
+.bg-blue { background-color: #039; }
+.bg-blue-light { background-color: #2F63CC; }
+.bg-gold { background-color: #ffd700; }
+.bg-green-dark { background-color: #89993D; }
+.bg-green-dark { background-color: #ABCC14; }
