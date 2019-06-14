@@ -1,2 +1,2 @@
 ## Front-end
-Zadania rekrutacyjne, projekty, wprawki frontendowe i backendowe (HTML, CSS, JS, AngularJS, AngularX).
+Szeroko pojęte materiały z zakresu fronu (HTML, CSS, JS, AngularJS, AngularX).
